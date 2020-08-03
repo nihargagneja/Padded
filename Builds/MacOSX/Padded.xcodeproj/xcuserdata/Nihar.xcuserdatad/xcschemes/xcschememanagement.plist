@@ -12,12 +12,12 @@
 		<key>Padded - All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Padded - Shared Code.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Padded - Standalone Plugin.xcscheme_^#shared#^_</key>
 		<dict>
@@ -38,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>AC966FF9A2DB51C3C59CEB64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFDEF7C7D69646CE2D0D83D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

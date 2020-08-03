@@ -10,6 +10,7 @@
 
 #include <JuceHeader.h>
 #include "PluginProcessor.h"
+#include "Pad.h"
 
 //==============================================================================
 /**
@@ -24,6 +25,7 @@ public:
     //==============================================================================
     void paint (juce::Graphics&) override;
     void resized() override;
+    void initGrid();
     void initPadGrid();
 
 private:
@@ -31,6 +33,9 @@ private:
     // access the processor object that created it.
     PaddedAudioProcessor& audioProcessor;
     std::vector<TextButton*> grid;
+    
+    int numPads = 5;
+    std::vector<Pad*> padGrid;
     
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (PaddedAudioProcessorEditor)
 };
