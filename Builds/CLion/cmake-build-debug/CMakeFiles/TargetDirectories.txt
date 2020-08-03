@@ -1,0 +1,6 @@
+/Users/Nihar/AudioDev/Padded/Builds/CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Nihar/AudioDev/Padded/Builds/CLion/cmake-build-debug/CMakeFiles/AU.dir
+/Users/Nihar/AudioDev/Padded/Builds/CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Nihar/AudioDev/Padded/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir
+/Users/Nihar/AudioDev/Padded/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir
+/Users/Nihar/AudioDev/Padded/Builds/CLion/cmake-build-debug/CMakeFiles/VST3.dir
