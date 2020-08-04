@@ -33,9 +33,11 @@ void PaddedAudioProcessorEditor::initGrid() {
 
 void PaddedAudioProcessorEditor::initPadGrid() {
     for(int i = 0; i < numPads; ++i) {
+        const int MIDI_OFFSET = 60;
+        
         TextButton* playSampleButton = new TextButton("Sample" + String(i + 1));
         ImageButton* loadSampleButton = new ImageButton();
-        padGrid.push_back(new Pad(playSampleButton, loadSampleButton));
+        padGrid.push_back(new Pad(playSampleButton, loadSampleButton, i + MIDI_OFFSET));
         
         addAndMakeVisible(padGrid[i]->getLoadSampleButton());
         addAndMakeVisible(padGrid[i]->getPlaySampleButton());

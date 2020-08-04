@@ -169,6 +169,8 @@ set_source_files_properties ("../../../../../../Applications/JUCE/modules/juce_a
 set_source_files_properties ("../../../../../../Applications/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp" PROPERTIES HEADER_FILE_ONLY TRUE)
 
 add_library (SHARED_CODE STATIC
+    "../../Source/MidiFunctions.cpp"
+    "../../Source/MidiFunctions.h"
     "../../Source/Pad.cpp"
     "../../Source/Pad.h"
     "../../Source/PluginProcessor.cpp"
@@ -1599,6 +1601,7 @@ add_library (SHARED_CODE STATIC
     "../../JuceLibraryCode/JucePluginDefines.h"
 )
 
+set_source_files_properties ("../../Source/MidiFunctions.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/Pad.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/PluginProcessor.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/PluginEditor.h" PROPERTIES HEADER_FILE_ONLY TRUE)

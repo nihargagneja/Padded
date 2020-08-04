@@ -6,6 +6,9 @@
               version="1.0.0" companyName="nihargagneja" cppLanguageStandard="11">
   <MAINGROUP id="bhCS5q" name="Padded">
     <GROUP id="{067CC8F2-9ED3-7858-226A-80482D1BCF09}" name="Source">
+      <FILE id="xCIBew" name="MidiFunctions.cpp" compile="1" resource="0"
+            file="Source/MidiFunctions.cpp"/>
+      <FILE id="NwOghk" name="MidiFunctions.h" compile="0" resource="0" file="Source/MidiFunctions.h"/>
       <FILE id="p2EStQ" name="Pad.cpp" compile="1" resource="0" file="Source/Pad.cpp"/>
       <FILE id="veUZh3" name="Pad.h" compile="0" resource="0" file="Source/Pad.h"/>
       <FILE id="IvPepX" name="PluginProcessor.cpp" compile="1" resource="0"

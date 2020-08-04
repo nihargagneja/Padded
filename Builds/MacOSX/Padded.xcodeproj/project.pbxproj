@@ -73,6 +73,10 @@
 			isa = PBXBuildFile;
 			fileRef = 24B91C2A5E9F7571B9B12914;
 		};
+		A373D7EA916C7A3F790CE8A0 = {
+			isa = PBXBuildFile;
+			fileRef = 2B6C1E1774FB33D9F3034CB4;
+		};
 		72493903478B816C8F194E71 = {
 			isa = PBXBuildFile;
 			fileRef = 6C49DEF60CED80486FBAEB5D;
@@ -233,6 +237,20 @@
 			name = "juce_audio_formats";
 			path = "/Applications/JUCE/modules/juce_audio_formats";
 			sourceTree = "<absolute>";
+		};
+		2B6C1E1774FB33D9F3034CB4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = MidiFunctions.cpp;
+			path = ../../Source/MidiFunctions.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		2EF56AED2BEF5AED2272B34F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = MidiFunctions.h;
+			path = ../../Source/MidiFunctions.h;
+			sourceTree = "SOURCE_ROOT";
 		};
 		2F3399E93AE71531C098F215 = {
 			isa = PBXFileReference;
@@ -566,6 +584,8 @@
 		A2D65E9C296CA2DA267ED058 = {
 			isa = PBXGroup;
 			children = (
+				2B6C1E1774FB33D9F3034CB4,
+				2EF56AED2BEF5AED2272B34F,
 				6C49DEF60CED80486FBAEB5D,
 				F8AAFEE9B61F58E7B3D74C73,
 				15A12734B5CD76054B3FF20C,
@@ -1931,6 +1951,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A373D7EA916C7A3F790CE8A0,
 				72493903478B816C8F194E71,
 				90A97073BF7D6E6D1A5CA63D,
 				90DD22161E176467E3BD0DCC,

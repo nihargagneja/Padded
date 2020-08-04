@@ -8,12 +8,17 @@
   ==============================================================================
 */
 
+
 #include "Pad.h"
+#include "MidiFunctions.h"
+
 using namespace juce;
 
-Pad::Pad(TextButton* psb, ImageButton* lsb) {
+Pad::Pad(TextButton* psb, ImageButton* lsb, int midiTrigger) {
     playSampleButton = psb;
     loadSampleButton = lsb;
+    
+    this->midiTrigger = midiTrigger;
 }
 
 TextButton* Pad::getPlaySampleButton() {
@@ -33,7 +38,7 @@ void Pad::draw(int x, int y, int height, int width) {
     loadSampleButton->setBounds(x, y + 300, 40, width - 10);
     
     midiTriggerText->attachToComponent(playSampleButton, true);
-    midiTriggerText->setText("C3", dontSendNotification);
+    midiTriggerText->setText(midiToPitchName(midiTrigger), dontSendNotification);
     midiTriggerText->setColour(Label::textColourId, Colours::grey);
     midiTriggerText->setBounds(x + 15, y + 15, 40, 10);
 }
